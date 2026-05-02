@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Quickstart dialog — shown on first launch (no webapps installed).
+# Quickstart dialog — shown on first launch (zero or one  webapp(s) installed).
 # Offers to create a default suite of Email, Notes, Reminders, and Contacts
 # for the Google, Apple, or Microsoft ecosystem in one click.
 
@@ -59,7 +59,7 @@ APP_LABELS = ["Email", "Notes", "Reminders", "Contacts"]
 
 class QuickstartDialog:
     """
-    Modal dialog shown when the user has no web apps installed.
+    Modal dialog shown when the user has no or one  web app(s) installed.
     Presents three ecosystem choices; clicking one creates all four apps
     automatically. Cancel dismisses without creating anything.
     """
