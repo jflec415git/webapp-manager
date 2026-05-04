@@ -217,7 +217,7 @@ class WebAppManagerWindow:
         self.load_webapps()
 
         # Show quickstart when the user has no apps yet (first run or clean slate)
-        if len([w for w in self.manager.get_webapps() if w.is_valid]) >= 1: # changed from < for testing
+        if len([w for w in self.manager.get_webapps() if w.is_valid]) <= 1:
             dialog = QuickstartDialog(self.window, self.manager)
             dialog.run()
             self.load_webapps()  # refresh list if apps were just created

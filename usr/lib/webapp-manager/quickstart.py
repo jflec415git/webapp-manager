@@ -31,7 +31,7 @@ ECOSYSTEMS = [
     {
         "key":      "apple",
         "label":    "Apple",
-        "icon":     "main-apple", #changed from web-apple
+        "icon":     "web-apple",            #changed from web-apple
         "color":    "#555555",
         "apps": [
             {"name": "iCloud Mail",       "url": "https://www.icloud.com/mail",       "icon": "web-apple", "desc": "iCloud email"},
